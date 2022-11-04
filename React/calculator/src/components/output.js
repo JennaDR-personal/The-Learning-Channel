@@ -5,8 +5,8 @@ const Output = props =>  {
    
         return (
             <div>
-                <OutputRow value={99} textSize={{fontsize: '20px'}} />
-                <OutputRow value={100} textSize={{fontsize: '20px'}} />
+                <OutputRow value={props.answer} textSize={{fontSize: '20px'}} />
+                <OutputRow value={props.user} />
             </div>
         );
 }
